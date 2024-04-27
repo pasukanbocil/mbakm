@@ -74,3 +74,20 @@ h2 {
     font-size: 1rem;
     color: #111;
 }
+
+@media screen and (max-width:574px) {
+    h2 {
+        display: block;
+        font-size: 1rem;
+        letter-spacing: 7px;
+
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .button a {
+        font-size: .5rem;
+    }
+}
