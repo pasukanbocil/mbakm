@@ -23,7 +23,7 @@ h2 {
     width: 100%;
     text-align: center;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
-    line-height: 0.70em;
+    /* line-height: 0.70em; */
     outline: none;
     animation: animate 5s linear infinite;
 }
@@ -63,10 +63,11 @@ h2 {
 }
 
 .description {
-    margin-top: 40px;
+    margin-top: 100px;
     font-size: 1.5rem;
     margin-bottom: 20px;
     color: white;
+    
 }
 
 .button a {
@@ -78,9 +79,8 @@ h2 {
 @media screen and (max-width:574px) {
     h2 {
         display: block;
-        font-size: 1rem;
-        letter-spacing: 7px;
-
+        font-size: 3rem;
+        letter-spacing: 1px;
     }
 
     .description {
